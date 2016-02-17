@@ -1,3 +1,4 @@
+package hw1;
 public class MathOperation {
 
 	/**
@@ -9,6 +10,16 @@ public class MathOperation {
 	 *            - positive number
 	 * @return greatest common divider of two numbers
 	 */
+	public static int gcd(int a,int b) {
+		    while (b !=0) {
+            int tmp = a%b;
+            a = b;
+            b = tmp;
+                    }
+        return a;
+        
+    }
+	
 	public int getCommonDivisor(int firstNumber, int secondNumber) {
 		// TODO the method body
 		return 0;
