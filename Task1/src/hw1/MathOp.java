@@ -1,4 +1,10 @@
 package hw1;
+
+public class MathOp {
+	public static void main(String[] args) {
+	//	System.out.println("Hello World");
+	}
+	}
 public class MathOperation {
 
 	/**
@@ -11,7 +17,9 @@ public class MathOperation {
 	 * @return greatest common divider of two numbers
 	 */
 	public static int gcd(int a,int b) {
-		    while (b !=0) {
+		int a = 18;
+		int b = 30;
+        while (b !=0) {
             int tmp = a%b;
             a = b;
             b = tmp;
@@ -141,7 +149,6 @@ public class MathOperation {
 		math.printChessboard();
 		int numbersCount = math.createSixDimensionArray();
 		math.printPascalsTriangle(3);
-		
 	}
-	
 }
+
